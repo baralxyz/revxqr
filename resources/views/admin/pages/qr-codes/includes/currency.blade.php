@@ -1,0 +1,1 @@
+<option value="INR">Indian Rupees</option>

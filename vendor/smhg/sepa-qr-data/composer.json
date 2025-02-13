@@ -1,0 +1,29 @@
+{
+    "name": "smhg/sepa-qr-data",
+    "description": "Generate QR code data for SEPA payments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smhg",
+            "email": "sam.hauglustaine@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SepaQr\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "phpmd src,tests ansi phpmd.xml",
+        "analyze": "phpstan analyze"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.8",
+        "phpunit/phpunit": "^7||^9",
+        "phpstan/phpstan": "^1.10"
+    }
+}
